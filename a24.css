@@ -1,0 +1,207 @@
+body 
+{
+    display: flex;
+    flex-direction: column;
+    height: 105vh;
+    width: 100vw;
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: Anton;
+    background-image: url(imagens/Heretic_Trailer_Thubmnail.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header
+{
+    display: flex;
+    position: sticky;
+    top: 0;
+    padding-top: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+    justify-content: space-between;
+}
+.header a
+{
+    text-decoration: none;
+    color: white;
+}
+.main
+{
+    position: relative;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.titulos
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    padding: 50px;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: 5px;
+}
+.a1
+{
+    position: relative;
+}
+.a1:hover
+{
+    color: rgba(255, 255, 255, 0.544);
+}
+.a1:hover::after
+{
+    content: '';
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    height: 100vh;
+    background-image: url("imagens/weliveinatime.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+    opacity: 1;
+}
+.a2 {
+    position: relative;
+    width: 100vw;
+}
+.a2:hover
+{
+    color: rgba(255, 255, 255, 0.544);
+}
+.a2:hover::after {
+    content: '';
+    position: fixed; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    width: 100vw;
+    height: 100vh;
+    background-image: url('imagens/heretic.gif'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1; 
+    opacity: 1; 
+}
+.a3 {
+    position: relative;
+}
+.a3:hover
+{
+    color: rgba(255, 255, 255, 0.544);
+}
+.a3:hover::after {
+    content: '';
+    position: fixed; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    width: 100vw;
+    height: 100vh;
+    background-image: url('imagens/QUEER.webp'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1; 
+    opacity: 1; 
+}
+.a4 {
+    position: relative;
+}
+.a4:hover
+{
+    color: rgba(255, 255, 255, 0.544);
+}
+.a4:hover::after {
+    content: '';
+    position: fixed; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    width: 100vw;
+    height: 100vh;
+    background-image: url('imagens/y2k.gif'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1; 
+    opacity: 1; 
+}
+.a5
+{
+    position: relative;
+}
+.a5:hover
+{
+    color: rgba(255, 255, 255, 0.544);
+}
+.a5:hover::after 
+{
+    content: '';
+    position: fixed; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    width: 100vw;
+    height: 100vh;
+    background-image: url('imagens/TheBrutalist.webp'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1; 
+    opacity: 1; 
+}
+.a6
+{
+    position: relative;
+}
+.a6:hover
+{
+    color: rgba(255, 255, 255, 0.544);
+}
+.a6:hover::after 
+{
+    content: '';
+    position: fixed; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    width: 100vw;
+    height: 100vh;
+    background-image: url('imagens/babygirl.gif'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1; 
+    opacity: 1; 
+}
+.footer
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.footer a, p
+{
+    text-decoration: none;
+    color: white;
+}
+.footer a:hover
+{
+    text-decoration: underline;
+}
